@@ -1,0 +1,12 @@
+### GIT COMMANDS ###
+
+git config --global user.name "vaibhavhirmukhe"
+git config --global user.email "hirmukhevaibhav15@gmail.com"
+
+touch .gitignore        //this command will create a gitignore file in which we will add file which we don't want to push
+git init               //to initailize the project
+git add.	          //All file will come to staging area	
+git commit -m "Initial Commit"
+git status # Just to see status
+git remote add origin <Add ssh url.git here>
+git push origin master
